@@ -1,0 +1,101 @@
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration:underline ;
+}
+.merge{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    padding: 20px;
+}
+.a1,.a2,.a3,.a4,.a5,.a6{
+
+    flex:1;
+    background-color: rgb(234, 233, 232);
+    color: rgb(96, 31, 31);
+    padding: 15px;
+    border-radius: 10px;
+}
+.a1 image{
+    height: 200px;
+    width: 200px;
+}
+.merge2{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    padding: 20px;
+}
+.b1,.b2,.b3,.b4,.b5,.b6{
+    flex:1;
+    background-color: rgb(234, 233, 232);
+    color: rgb(96, 31, 31);
+    padding: 15px;
+    border-radius: 10px;
+}
+.merge3{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    padding: 20px;
+}
+.c1,.c2,.c3,.c4,.c5,.c6{
+
+    flex:1;
+    background-color: rgb(234, 233, 232);
+    color: rgb(96, 31, 31);
+    padding: 15px;
+    border-radius: 10px;
+}
+.merge5{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    padding: 20px;
+}
+.d1,.d2,.d3,.d4,.d5,.d6{
+
+    flex:1;
+    background-color: rgb(234, 233, 232);
+    color: rgb(96, 31, 31);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* .a1 image{
+    height: 200px;
+    width: 200px;
+} */
+
+/* .merge {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.merge img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.caption {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 8px;
+} */
+
+
+
+
+
+
+
+
+
+
+

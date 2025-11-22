@@ -1,0 +1,92 @@
+
+
+h1{
+    
+    text-align:left;
+    font-size: 60px;
+    color:black;
+    background-color: #ab897c;
+    padding: 25px;
+    margin: 10px;
+    
+}
+body{
+    margin:0;
+    padding: 0;
+
+}
+.section{
+    position: relative;
+    height: 100vh;
+    padding: 40px;
+    color: #fff;
+    z-index:1;
+}
+.section::before{
+    content:"";
+    position: absolute;inset:0;
+    background-image: url('backgroundfor\ 1.jpg');
+    background: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+
+}
+a{
+    font-size: 25px;
+    font-family:cursive;
+    text-indent:right 200 px ;
+}
+.image-gallery{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+}
+.dessert-card{
+    width: 23%;
+    text-align: center;
+}
+.dessert-card img{
+    width: 350px;
+    height: 350px;
+    display: block;
+}
+.caption{
+    font-size: 2em;
+    font-weight: bold;
+    color: #444;
+    margin-top: 5px;
+}
+button{
+    padding: 10px 90px;
+    background-color: rgb(71, 29, 29);
+    font-size: 25px;
+    color: whitesmoke;
+}
+.seprate{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    padding: 20px;
+
+}
+.one,.two{
+    flex:1;
+    background-color: rgb(234, 233, 232);
+    color: rgb(96, 31, 31);
+    padding: 15px;
+    border-radius: 10px;
+}
+.two img{
+    border-image-slice: 30px;
+    padding:10px;
+    margin: 5px;
+    height: 140px;
+    width: 200px;
+}
+
+
+
+
+
